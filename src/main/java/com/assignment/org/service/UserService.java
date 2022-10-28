@@ -13,9 +13,9 @@ public class UserService {
 
     private static List<User> userList=new ArrayList<>();
     static{
-        userList.add(new User("Ujjwal",21,"Delhi"));
-        userList.add(new User("Anubhav",32,"Meerut"));
-        userList.add(new User("Sejal",27,"Hansi"));
+        userList.add(new User("Shimanshu",21,"Delhi"));
+        userList.add(new User("Yogi",32,"Meerut"));
+        userList.add(new User("Modi",27,"Hansi"));
     }
 
     public List<User> getUserList() {

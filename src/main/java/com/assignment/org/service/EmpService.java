@@ -12,9 +12,9 @@ public class EmpService {
     private static List<Employee> empList;
 
     static{
-        empList=Arrays.asList(new Employee("Ujjwal",10001l,"password12"),
-                new Employee("Khushal",10002l,"Password13"),
-                new Employee("Swaggy",10003l,"Pas@13"));
+        empList=Arrays.asList(new Employee("Shimanshu",10001l,"password12"),
+                new Employee("Yogi",10002l,"Password13"),
+                new Employee("Modi",10003l,"Pas@13"));
     }
 
     public List<Employee> getAll(){
